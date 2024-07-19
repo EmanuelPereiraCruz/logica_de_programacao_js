@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.8 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <p>Elaborar um programa para uma pizzaria, o qual leia o valor total de
+        uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser
+        pago por cliente.
+    </p>
+
+    <script>
+        let valor_total_da_conta = Number(prompt('Por favor, informe o valor total da conta: '));
+        let quantidade_de_pessoas_pagando = Number(prompt('Quantas pessoas irão pagar a conta: '));
+        let valor_unitario_a_ser_pago = valor_total_da_conta / quantidade_de_pessoas_pagando
+        alert(`Valor da Conta R$: ${valor_total_da_conta.toFixed(1)}\n\nNúmero de Clientes: ${quantidade_de_pessoas_pagando}\n\nValor por Cliente: ${valor_unitario_a_ser_pago.toFixed(1)}`)
+    </script>
+</body>
+
+</html>

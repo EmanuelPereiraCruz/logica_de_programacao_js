@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.6 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <p>Elaborar um programa que leia o valor de um jantar. Calcule e informe
+        o valor da taxa do garçom (10%) e o valor total a ser pago.
+    </p>
+
+    <script>
+        let valor_do_jantar = Number(prompt('Por favor, informe o valor do jantar: '));
+        const TAXADOGARCOM = 0.1;
+        let valor_taxa_garcom = TAXADOGARCOM*valor_do_jantar
+        let valor_total = valor_do_jantar+(valor_do_jantar*TAXADOGARCOM);
+        alert(`Valor do Jantar R$: ${valor_do_jantar}\n\nTaxa do Garçom R$: ${valor_taxa_garcom.toFixed(1)}\n\nTotal a Pagar R$: ${valor_total}`)
+    </script>
+</body>
+
+</html>

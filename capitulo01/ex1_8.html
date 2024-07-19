@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.8 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <p>Elaborar um programa que leia um número. Calcule e informe os seus
+        vizinhos, ou seja, o número anterior e posterior.
+    </p>
+
+    <script>
+        let numero = Number(prompt('Por favor, informe um número: '));
+        let numero_anterior = numero-1
+        let numero_posterior = numero+1
+        alert(`Número Informado: ${numero}\n\nNúmero Anterior: ${numero_anterior}\n\nNúmero Posterior: ${numero_posterior}`)
+    </script>
+</body>
+
+</html>

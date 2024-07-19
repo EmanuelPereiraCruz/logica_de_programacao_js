@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.8 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <p>Elaborar um programa para uma loja, o qual leia o preço de um produto
+        e informe as opções de pagamento da loja. Calcule e informe o valor para
+        pagamento à vista com 10% de desconto e o valor em 3x.
+    </p>
+
+    <script>
+        let preco_do_produto = Number(prompt('Qual o preço do produto R$: '));
+        const DESCONTOAVISTA = 0.1;
+        let pagamento_a_vista = preco_do_produto - (preco_do_produto * DESCONTOAVISTA);
+        let pagamento_parcelado = preco_do_produto / 3;
+
+        alert(`Preço do Produto R$: ${preco_do_produto}\n\nÁ Vista R$: ${pagamento_a_vista.toFixed(1)}\n\nOu em 3X de R$: ${pagamento_parcelado.toFixed(1)}`)
+    </script>
+</body>
+
+</html>

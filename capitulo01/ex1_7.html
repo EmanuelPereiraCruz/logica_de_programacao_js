@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 1.7 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <p>Elaborar um programa que leia a duração de uma viagem em dias e
+        horas. Calcule e informe a duração total da viagem em número de horas.
+    </p>
+
+    <script>
+        let quantidade_de_dias_da_viagem = Number(prompt('Informe, por favor, a quantidade de dias da viagem: '));
+        let quantidade_de_horas_da_viagem = Number(prompt('Informe, por favor, a quantidade de horas da viagem: '));
+        const DIASPARAHORAS = quantidade_de_dias_da_viagem*24 //Converte a quantidade de dias em horas//
+        let total_de_horas = DIASPARAHORAS+quantidade_de_horas_da_viagem
+        alert(`Nº de dias da viagem: ${quantidade_de_dias_da_viagem}\n\nNº de horas da viagem: ${quantidade_de_horas_da_viagem}\n\nTotal de Horas: ${total_de_horas}`)
+    </script>
+</body>
+
+</html>
