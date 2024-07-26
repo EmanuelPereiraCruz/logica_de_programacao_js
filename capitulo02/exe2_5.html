@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2.5 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Farmácia JS</h1>
+    <hr>
+
+    <form>
+        <p>Medicamento: <input type="text" id="inMedicamento" required></p>
+        <p>Preço: <input type="number" id="inPreco" min="0" step="0.01" required></p>
+        <input type="submit" value="Mostrar Promoção">
+    </form>
+
+    <h3 id="outProduto"></h3>
+    <h3 id="outValor"></h3>
+
+    <script src="exe2_5.js"></script>
+</body>
+
+</html>

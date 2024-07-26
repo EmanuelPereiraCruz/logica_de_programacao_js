@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2.7 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Supermercado JS</h1>
+    <hr>
+
+    <form>
+        <p>Produto: <input type="text" id="inProduto" required></p>
+        <p>Preço R$: <input type="number" id="inPreco" min="0" step="0.01" required></p>
+        <button type="submit">Ver Promoção</button>
+    </form>
+
+    <h4 id="outProduto"></h4>
+    <h4 id="outTerceiroItem"></h4>
+
+    <script src="exe2_7.js"></script>
+</body>
+
+</html>
