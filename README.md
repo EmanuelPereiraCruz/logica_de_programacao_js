@@ -5,6 +5,16 @@
 [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
 
 <p>
-  <a href="#Cap01" style="text-decoration: none;">Capítulo 01 - Introdução</a><br><br>
+  <a href="#Capitulo01" style="text-decoration: none;">Capítulo 01 - Introdução</a><br><br>
   <a href="#Cap02" style="text-decoration: none;">Capítulo 02 - Integração com HTML</a><br><br>
+</p>
+
+### Capitulo01
+<p>O <b>primeiro</b> capítulo do livro de Lógica de Programação e Algoritmos com JavaScript abordou seguintes assuntos:<br><br>
+  * Método alert;<br>
+  * Comentários;<br>
+  * Declaração de variáveis e constantes;<br>
+  * Método prompt;<br>
+  * Método number;<br>
+  * Tipos de dados em JavaScript.<br>
 </p>
