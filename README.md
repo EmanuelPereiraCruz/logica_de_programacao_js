@@ -7,6 +7,7 @@
 <p>
   <a href="#Capitulo_01">Capítulo 01 - Introdução</a><br><br>
   <a href="#Capitulo_02">Capítulo 02 - Integração com HTML</a><br><br>
+  <a href="#Capitulo_03">Capítulo 03 - Construção de algoritmos com Node.js</a><br><br>
 </p>
 
 ### Capitulo_01
@@ -30,5 +31,14 @@
   <li>Propriedades innerText, innerHTML e value</li>
   <li>Método preventDefault()</li>
   <li>Operadores aritméticos e funções matemáticas</li>
+  </ul>
+</p>
+
+### Capitulo_03
+<p>O <b>Terceiro</b> capítulo do livro de Lógica de Programação e Algoritmos com JavaScript abordou seguintes assuntos:<br>
+  <ul>
+  <li>Instalação do Node.js</li>
+  <li>Adição de pacote para entrada de dados: prompt-sync</li>
+  <li>Criação e execução de programas com o Node.js</li>
   </ul>
 </p>
