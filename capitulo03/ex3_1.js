@@ -1,3 +1,4 @@
+//Para receber dados no terminal usando Node, instalei o pacote prompt-sync.//
 const prompt = require("prompt-sync")() // adiciona pacote para entrada de dados
 const num1 = Number(prompt("Primeiro Número: ")) // lê os números
 const num2 = Number(prompt("Segundo Número: "))
