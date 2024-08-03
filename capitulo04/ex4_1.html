@@ -5,10 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo 4.1 HTML</title>
+    <!--Adicionei a tag Style internamente-->
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <h1>Programa Situação do Aluno</h1>
+    <!--Adicionei um HR para exibir uma linha abaixo do H1-->
+    <hr>
 
+    <form action="#">
+        <p>Nome do Aluno:
+            <input type="text" id="inAluno">
+        </p>
+
+        <p>1º Nota:
+            <input type="number" id="inNotaUM">
+        </p>
+
+        <p>2º Nota:
+            <input type="number" id="inNotaDois">
+        </p>
+
+        <button type="submit">Exibir Média e Situação</button>
+    </form>
 </body>
 
 </html>
