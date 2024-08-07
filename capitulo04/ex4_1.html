@@ -23,10 +23,20 @@
 
     <form action="#">
         <p>Nome do Aluno:
-            <input type="text" id="inAluno" required>
+            <input type="text" id="inAluno" required><!--A propriedade required faz com que o campo seja obrigatório-->
         </p>
 
         <p>1º Nota:
+            <!--
+            O step permite com que seja definido o formato do número. Por exemplo, 
+            sem usar o step, o input aceitará somente números inteiros. 
+            Com o uso do step e valor igual 0.1, eu indico ao HTML que esse input receberá valores decimais
+            com 1 casa após a virgula. 
+
+            Já o min e o máx, permite com que eu limite o valor de entrada de dados em cada input.
+            Ou seja, a nota minina do aluno só pode ser 0 e a sua nota máxima só pode ser 10.
+            
+            -->
             <input type="number" id="inNotaUM" step="0.1" min="0" max="10" required>
         </p>
 
