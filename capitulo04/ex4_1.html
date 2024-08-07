@@ -23,19 +23,23 @@
 
     <form action="#">
         <p>Nome do Aluno:
-            <input type="text" id="inAluno">
+            <input type="text" id="inAluno" required>
         </p>
 
         <p>1º Nota:
-            <input type="number" id="inNotaUM">
+            <input type="number" id="inNotaUM" step="0.1" min="0" max="10" required>
         </p>
 
         <p>2º Nota:
-            <input type="number" id="inNotaDois">
+            <input type="number" id="inNotaDois" step="0.1" min="0" max="10" required>
         </p>
 
+        
         <button type="submit">Exibir Média e Situação</button>
+        <h3 id="outNota"></h3>
+        <h3 id="outResultado"></h3>
     </form>
+    <script src="ex4_1.js"></script>
 </body>
 
 </html>
