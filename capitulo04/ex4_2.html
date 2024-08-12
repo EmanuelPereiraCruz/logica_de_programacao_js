@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 4.2 HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Programa Cálculo do Peso Ideal</h1>
+    <hr>
+    <form action="#">
+        <p>Nome:
+            <input type="text" id="inNome" required>
+        </p>
+        <p>Sexo:
+            <input type="radio" name="sexo" id="inRadioMasculino" required>Masculino
+            <input type="radio" name="sexo" id="inRadioFeminino" required>Feminino
+        </p>
+        <p>Altura:
+            <input type="number" id="inAltura" step="0.01" required>
+        </p>
+
+        <button type="submit" id="btCalculaPeso">Calcular Peso Ideal</button>
+        <button type="reset" id="btLimpaCampo">Limpar Campos</button>
+
+        <h3></h3>
+    </form>
+
+    <script src="ex4_2.js"></script>
+</body>
+
+</html>
