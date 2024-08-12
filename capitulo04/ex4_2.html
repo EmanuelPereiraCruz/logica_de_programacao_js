@@ -24,6 +24,8 @@
             <input type="text" id="inNome" required>
         </p>
         <p>Sexo:
+            <!--Nesse paragráfo, usei o input do tipo rádio. Nele, o atribulto name necessita ter
+            o mesmo valor, caso contrário, o usuário conseguirá marcar mais de um campo simultaneamente.-->
             <input type="radio" name="sexo" id="inRadioMasculino" required>Masculino
             <input type="radio" name="sexo" id="inRadioFeminino" required>Feminino
         </p>
@@ -31,6 +33,8 @@
             <input type="number" id="inAltura" step="0.01" required>
         </p>
 
+        <!--Usei dois buttons aqui. O primeiro, realiza o envio do formulário.
+        Já o segundo button, recarrega a página, com isso temos os campos de entrada vazios novamente.-->
         <button type="submit" id="btCalculaPeso">Calcular Peso Ideal</button>
         <button type="reset" id="btLimpaCampo">Limpar Campos</button>
 
